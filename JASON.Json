@@ -1,7 +1,7 @@
    {    
   "quizz": {
     "fr": {
-      "débutant": [
+      "QUESTIONS": [
       {
         "id": 1,
         "question": "Quel logiciel de traitement de texte a été mis au point par la société Microsoft ?",
@@ -240,8 +240,8 @@
         "réponse": "Benoît XVI",
         "anecdote": "Réputé conservateur, le cardinal Ratzinger a été élu le 19 avril 2005 pour succéder à Jean-Paul II."
       }
-    ],
-    "expert": [
+    ,
+    
       {
         "id": 21,
         "question": "Quel courrielleur créé par Mozilla est le compagnon idéal du navigateur « Firefox » ?",
