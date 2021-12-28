@@ -1,6 +1,5 @@
    {    
-  "quizz": {
-    "fr": {
+  
       "QUESTIONS": [
       {
         "id": 1,
@@ -303,6 +302,4 @@
         "anecdote": "« Gaim » a été renommé en « Pidgin » en 2007 en raison de plaintes de la société AOL et de sa marque AIM."
       }
     ]
-  }
-}
 }
