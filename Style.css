@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    background-image: url(Image/fond.jpg) ;
+    background-image: no-repeat;            
+    background-attachment: fixed;  
+    background-color: black;   
+    font-family: sans-serif;          
+}
+
+h2 { padding-top: 15%;
+
+}
+.h3 {
+    padding-top: 7%;
+    
+}
+
+a{
+    text-decoration: none;
+    
+}
+.page {
+padding-left: 15%;
+padding-right: 15%;
+}
+h3 {
+    text-align: center;
+    text-decoration: underline;
+}
+.header {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(243, 231, 231);
+    padding: 20px;
+   
+}
+.Avatar {
+    width: 15%; 
+}
+img{
+    width: 100%;
+}
+
+.contact {
+    display: inline;
+}
+.Main {
+    background : rgb(243, 231, 231);
+    padding: 20px;
+}
+
+.ex {
+    display: flex;
+    justify-content: center;
+}
+
+.Sect1 {
+    background: rgb(243, 231, 231);
+}
+
+.Sect2 {
+    background: rgb(243, 231, 231);
+}
+
+.For {
+    display: flex;
+    justify-content: center;
+}
+
+.hr{
+    color: black;
+    width: 80%;
+}
+
+
+footer {
+    background : rgb(243, 231, 231);
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+}   
+
+li {
+    padding-top: 20px;
+}
+
+.vertical-line {
+    border-left: 2px solid #000;
+    display: inline-block;
+    height: 230px;
+    margin: 0 20px;
+}
+
+.intro {
+    justify-content: center;
+}
+
+.Competences {
+    text-align: center;
+}
+section{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.intro {
+    text-align : center;
+    padding-top: 5%;
+}
+.ex3 {
+    text-align:center;
+    padding-top: 5%;
+}
+.Langues {
+    padding-right: 16%;
+}
+
+
+@media screen and (max-width: 401px){
+.ex {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+}   
+.For {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.vertical-line {
+    display: none;
+}
+.footer {
+flex-direction: column;
+}
+.header {
+    flex-direction: column;
+}
+.Avatar {
+    display: none;
+}
+.page {
+    padding-left: 0%;
+    padding-right: 0%;
+    }
+.header {
+    text-align: center;
+}
+.ex3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+body{
+    font-size: 15px;
+}
+}
